@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>es6 arrows</title>
+</head>
+<body>
+	
+</body>
+
+<script type="text/javascript">
+
+// one can leave out the function keyword
+// const helps to keep the value as it is.Value does not change
+	let danielCircle = (r) =>{
+		const PI = 3.14;
+		return PI * r * r;
+	};
+	console.log(danielCircle(7));
+	
+	
+	//it becomes easy if one doesnt have mutiple statement
+	let danielCircle2 = r => 3.14 *r*r;
+	console.log(danielCircle2(7));
+
+
+</script>
+
+</html>
